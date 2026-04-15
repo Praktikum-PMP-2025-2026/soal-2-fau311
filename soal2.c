@@ -1,3 +1,16 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 1
+ *   Hari dan Tanggal    : 15 April 2026
+ *   Nama (NIM)          : Syifa Fauziah Prasetyo (13224090)
+ *   Nama File           : soal2.c
+ *   Deskripsi           : Untuk setiap bilangan, hitung banyak langkah sampai menjadi 1 dengan aturan transformasi tertentu
+ *                         Dengan syarat : Jika n genap, ubah menjadi n / 2, Jika n ganjil dan n > 1, ubah menjadi 3n + 1, 
+ *                         Hitung banyak transformasi sampai n = 1
+ *                         Gunakan rekursi
+ * 
+ * 
+ */
+
 #include <stdio.h>
 int banyak_langkah(int n){
     // Jika n merupakan angka 1, maka keluar dari fungsi 
